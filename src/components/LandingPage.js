@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { useMinimalSelectStyles } from '@mui-treasury/styles/select/minimal';
+//import { useMinimalSelectStyles } from '@mui-treasury/styles/select/minimal';
 import { FormGroup, Label, Input, Modal, ModalHeader, ModalBody, Form } from 'reactstrap';
 // import { Form } from 'react-bootstrap'
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+//import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
