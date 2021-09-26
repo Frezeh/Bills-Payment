@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { useMinimalSelectStyles } from '@mui-treasury/styles/select/minimal';
+//import { useMinimalSelectStyles } from '@mui-treasury/styles/select/minimal';
 import { FormGroup, Label, Input, Modal, ModalHeader, ModalBody, Form } from 'reactstrap';
 // import { Form } from 'react-bootstrap'
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+//import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     },
     image: {
         // backgroundImage: 'url(https://source.unsplash.com/random)',
-        backgroundImage: 'url(https://images.unsplash.com/photo-1616077167555-51f6bc516dfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80)',
+        backgroundImage: 'url(https://images.unsplash.com/photo-1616077167555-51f6bc516dfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80)',
         backgroundRepeat: 'no-repeat',
         backgroundColor:
             theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
